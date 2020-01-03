@@ -50,10 +50,10 @@ echo "Installing oh-my-zsh"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Symbolic link Home folders to Dropbox
-echo "Symbolic linking Dropbox folders"
-ln -sf ~/Desktop  ~/Dropbox/
-ln -sf ~/Documents  ~/Dropbox/
-ln -sf ~/Pictures  ~/Dropbox/
+#echo "Symbolic linking Dropbox folders"
+#ln -sf ~/Desktop  ~/Dropbox/
+#ln -sf ~/Documents  ~/Dropbox/
+#ln -sf ~/Pictures  ~/Dropbox/
 
 # Symbolic link dotfiles to ~/
 echo "Symbolic linking dotfiles..."
